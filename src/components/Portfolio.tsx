@@ -6,7 +6,7 @@ import { SiTypescript, SiTailwindcss, SiExpress, SiPostgresql } from "react-icon
 export default function Portfolio() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-pink-100 to-purple-200 text-gray-900 flex flex-col items-center p-6">
-      <header className="w-full max-w-4xl text-center py-8">
+      <header className="w-full max-w-xl text-center py-8">
         <div className="flex justify-center">
           <img
             src="https://media.licdn.com/dms/image/v2/D4E03AQFCJWN76DTxcg/profile-displayphoto-shrink_800_800/B4EZPKyYbsGQAc-/0/1734274025753?e=1744243200&v=beta&t=PkEWcSIRW_lCtbJr9999tzXCUj9sExxX4EqJrDi4ZlQ"
@@ -18,7 +18,7 @@ export default function Portfolio() {
         <p className="text-lg text-gray-700">PERN Stack Developer | JavaScript & TypeScript | React & Node.js | Turning Complex Problems into Seamless Solutions</p>
       </header>
       
-      <section className="w-full max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-6">
+      <section className="w-full max-w-4xl grid grid-cols-1 gap-6">
         <Card>
           <CardContent className="p-6">
             <h2 className="text-2xl font-semibold text-pink-600">About Me</h2>
@@ -31,7 +31,7 @@ export default function Portfolio() {
         </Card>
       </section>
         
-        <section className="w-full max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+        <section className="w-full max-w-4xl grid grid-cols-1 gap-6 mt-6">
   <Card>
     <CardContent className="p-6">
       <h2 className="text-2xl font-semibold text-pink-600">Projects</h2>
@@ -47,17 +47,17 @@ export default function Portfolio() {
         <li className="mt-4">
           <strong>🌸 NC News Web App</strong> - The frontend version of NC News API, using React and Tailwind.
           <br />
+          <a href="https://github.com/PiX3L-NoMAD/nc_news_react" target="_blank" className="text-pink-600 hover:text-pink-800">GitHub Repo</a> | 
           <a href="https://janilees-nc-news.netlify.app" target="_blank" className="text-pink-600 hover:text-pink-800 ml-1">Deployed Web App</a>
-          <a href="https://github.com/PiX3L-NoMAD/nc_news_react" target="_blank" className="text-pink-600 hover:text-pink-800">GitHub Repo</a>
         </li>
         <li className="mt-4">
           <strong>💻 Law-Vely</strong> - An app making UK legislation accessible and fun, integrating OpenAI for summaries, and Firebase for databasing.
           <br />
           Built with TypeScript, React, Tailwind. Hosted on Netlify and Render.
           <br />
-          <a href="https://law-vely.netlify.app/" target="_blank" className="text-pink-600 hover:text-pink-800 ml-1">Deployed Web App</a> | 
           <a href="https://github.com/ilyasbaggelaar/Law-Vely" target="_blank" className="text-pink-600 hover:text-pink-800">GitHub Repo</a> | 
-          <a href="https://law-vely.onrender.com/api/legislationsummaries" target="_blank" className="text-pink-600 hover:text-pink-800 ml-1">Backend API</a>
+          <a href="https://law-vely.onrender.com/api/legislationsummaries" target="_blank" className="text-pink-600 hover:text-pink-800 ml-1">Backend API</a> | 
+          <a href="https://law-vely.netlify.app/" target="_blank" className="text-pink-600 hover:text-pink-800 ml-1">Deployed Web App</a>
         </li>
       </ul>
     </CardContent>
@@ -65,7 +65,7 @@ export default function Portfolio() {
 </section>
 
      {/* Tech Stack Section with Neon Animation */}
-     <section className="w-full max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+     <section className="w-full max-w-4xl grid grid-cols-1 gap-6 mt-6">
         <Card>
           <CardContent className="p-6">
             <h2 className="text-2xl font-semibold text-pink-600">Tech Stack</h2>
